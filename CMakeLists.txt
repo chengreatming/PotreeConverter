@@ -5,9 +5,12 @@ project(PotreeConverter LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
-set(CMAKE_BUILD_TYPE "Release" CACHE STRING "" FORCE)
+#set(CMAKE_BUILD_TYPE "Release" CACHE STRING "" FORCE)
+SET(CMAKE_BUILD_TYPE "Debug" CACHE STRING "" FORCE)
 
 #message(${PROJECT_SOURCE_DIR})
+
+
 
 set(HEADER_FILES  
 	./Converter/include/Attributes.h
