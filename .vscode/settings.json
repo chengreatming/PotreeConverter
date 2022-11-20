@@ -81,18 +81,8 @@
 		"stack": "cpp",
 		"variant": "cpp"
 	},
-	"files.trimTrailingWhitespace": false,
-	"editor.fontSize": 28,
-	"editor.autoIndent": "advanced",
-	"editor.detectIndentation": false,
-	"editor.insertSpaces": false,
-	"editor.minimap.enabled": false,
-	"editor.autoClosingBrackets": "never",
-	"editor.formatOnType": false,
-	"editor.acceptSuggestionOnEnter": "off",
-	"editor.acceptSuggestionOnCommitCharacter": false,
+	"editor.fontSize": 18,
+
+	"cmake.configureOnOpen": true,
 	"editor.mouseWheelZoom": true,
-	"editor.renderWhitespace": "all",
-	"editor.autoClosingQuotes": "never",
-	"editor.autoSurround": "never",
 }
